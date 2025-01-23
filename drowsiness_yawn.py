@@ -68,7 +68,7 @@ def lip_distance(shape):
 ap = argparse.ArgumentParser()
 ap.add_argument("-w", "--webcam", type=int, default=0,
                 help="index of webcam on system")
-ap.add_argument("-a", "--alarm", type=str, default="D:\Files\last desktop\Drowsiness-Detection-System\Alert.WAV", help="path alarm .WAV file")
+ap.add_argument("-a", "--alarm", type=str, default="Alert.wav", help="path alarm .WAV file")
 args = vars(ap.parse_args())
 
 EYE_AR_THRESH = 0.3
